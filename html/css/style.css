@@ -1,0 +1,49 @@
+:root {
+  --kb-fg-color: #0d6efd;
+}
+
+/* needed for interactive map in listplace.xsl */
+div#map {
+  height: 50vh;
+}
+
+/* Match bootstrap navlink focus outline color. */
+:focus-visible {
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+.entity {
+  text-decoration: underline dotted;
+  cursor: pointer;
+}
+
+.footerlogo {
+  max-width: 50%;
+  max-height: 75px;
+}
+
+#osdViewer {
+  height: 800px;
+}
+
+/* EDITIONS */
+.page-head{
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
+  font-size: 1.5rem;
+  align-content: center;
+  padding-bottom: 1rem;
+}
+
+.underline {
+   text-decoration: underline solid;
+}
+
+
+.btn.btn-light.rounded-0.yearbtn.focus {
+  background-color: var(--kb-fg-color);
+  color: white;
+}
