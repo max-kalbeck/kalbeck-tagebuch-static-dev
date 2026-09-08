@@ -4,7 +4,7 @@ import os
 import json
 from acdh_tei_pyutils.tei import TeiReader
 from tqdm import tqdm
-files = glob.glob('./data/editions/*xml')
+files = glob.glob('./data/work/*xml')
 out_file = "./html/calendarData.json"
 data = []
 for x in tqdm(files, total=len(files)):

@@ -27,7 +27,7 @@
                 <body>
                     <list>
                         <head>Editions</head>
-                        <xsl:for-each select="collection('../data/editions?select=*.xml')//tei:TEI">
+                        <xsl:for-each select="collection('../data/work?select=*.xml')//tei:TEI">
                             <xsl:sort>
                                 <xsl:value-of select="@xml:id"/>
                             </xsl:sort>

@@ -17,7 +17,7 @@ project_data = {x.attrib["name"]: x.text for x in doc.tree.xpath(".//*[@name]")}
 oai_folder = os.path.join("html", "oai-pmh")
 shutil.rmtree(oai_folder, ignore_errors=True)
 os.makedirs(oai_folder, exist_ok=True)
-files = sorted(glob.glob("./data/editions/*.xml"))
+files = sorted(glob.glob("./data/work/*.xml"))
 
 print("serializing Identify.xml")
 template = templateEnv.get_template("Identify.j2")

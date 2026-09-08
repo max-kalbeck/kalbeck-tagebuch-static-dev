@@ -46,7 +46,7 @@ for x in glob.glob(f"{INDICES_DIR}/*.xml"):
     os.remove(x)
 
 
-files = glob.glob("./data/editions/*.xml")
+files = glob.glob("./data/work/*.xml")
 
 
 ids = set()
