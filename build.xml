@@ -9,7 +9,7 @@
     <delete>
         <fileset dir="${target}" includes="*.html"/>
     </delete>
-    <xslt style="./xslt/tei-copy.xsl" basedir="./data/editions" destdir="${filtered_editions}" includes="*.xml" extension=".xml">
+    <xslt style="./xslt/tei-copy.xsl" basedir="./data/work" destdir="${filtered_editions}" includes="*.xml" extension=".xml">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>

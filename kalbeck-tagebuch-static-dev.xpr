@@ -110,7 +110,7 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>data/editions/f_001.xml</String>
+                                    <String>data/work/f_001.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
