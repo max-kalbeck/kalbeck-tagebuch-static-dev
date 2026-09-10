@@ -13,7 +13,7 @@ mv kalbeck-tagebuch-static-${BRANCH}/*.* ./
 mv kalbeck-tagebuch-static-${BRANCH}/{saxon,xslt,html,*scripts} .
 
 
-sed -i 's/work/editions/g' shellscripts/fetch_data.sh
-echo 'mv data/work data/editions' >> shellscripts/fetch_data.sh
+# sed -i 's/work/editions/g' shellscripts/fetch_data.sh
+# echo 'mv data/work data/editions' >> shellscripts/fetch_data.sh
 
 rm -rf kalbeck-tagebuch-static-app-${BRANCH}*
