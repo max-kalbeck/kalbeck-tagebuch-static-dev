@@ -9,6 +9,9 @@ data/imprint.xml
 data/indices/*.xml
 data/editions/*.xml
 data/meta/*.xml
+.in
+.out
+.dockerignore
 
 
 # Byte-compiled / optimized / DLL files
