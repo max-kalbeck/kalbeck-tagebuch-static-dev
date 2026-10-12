@@ -43,7 +43,7 @@ jobs:
       - name: Install the latest version of uv
         uses: astral-sh/setup-uv@v8.2.0
       - name: Clone production app
-        run: ./fetch_data_app.sh
+        run: ./fetch_data_app.sh ${{ inputs.devBranch }}
       - name: Fetch the data
         run: ./shellscripts/fetch_data.sh
       - name: Process data
