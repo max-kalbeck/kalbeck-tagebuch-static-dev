@@ -11,7 +11,7 @@ on:
       devBranch:
         description: 'Development branch'
         required: true
-        default: 'dev'
+        default: '114-add-logos'
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
